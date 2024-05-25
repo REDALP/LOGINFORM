@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="LOGINFORM.CSS">
+    <script src="LOGINFORM.JS" defer></script>
+</head>
+<body>
+    <form action="intro.html" method="post" >
+        <div class="box">
+          <h2>Login Form</h2>
+          <label for="username" >Username:</label>
+          <input type="text" id="username" name="username" required>
+          <span id="usernameError" class="error"></span>
+      
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <span id="passwordError" class="error"></span>
+        
+        <input type="submit" onclick="validateform()" value=" submit">
+</body>
+</html>
